@@ -8,11 +8,11 @@ session_start(); //when the user is loged in, hll b login in all pages
         <meta charset="utf-8">
         <title>homepage</title>
         <!-- I can choose a font from googleapis the one below is an eg it is not crucial -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine"> 
         <!-- the 2 links below to 2 css files that i have to subscribe on patereron or get from 
         another source -->
-         <link rel="stylesheet" href="css\reset.css" > <!--reset the styling in all diff browsers -->
-        <link rel="stylesheet" href="css/style.css" > <!--styles the website c css course -->
+        <link rel="stylesheet" href="css/reset.css" >  <!--reset the styling in all diff browsers -->
+        <link rel="stylesheet" href="css/style.css">  <!--styles the website c css course -->        
     </head>
     <body>
                 
