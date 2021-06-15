@@ -12,7 +12,7 @@
                     <input type="text" name="uid" placeholder="User name..." >
                     <input type="password" name="pwd" placeholder="Password..." >
                     <input type="password" name="pwdrepeat" placeholder="Repeat password..." >
-                    <!-- <input type="text" name="role" placeholder="User role..." > -->
+                    <input type="text" name="role" placeholder="User role..." >
                     <button type="submit" name="submit" >Sign Up</button>
                 </form>
             </div><!--end styling patereon :) !!--> 
