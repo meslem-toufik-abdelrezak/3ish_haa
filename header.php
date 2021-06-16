@@ -1,5 +1,5 @@
 <?php
-session_start(); //when the user is loged in, hll b login in all pages
+session_start(); //when the user is loged in, will b login in all pages
 ?>
 
 <!DOCTYPE html>
@@ -22,8 +22,6 @@ session_start(); //when the user is loged in, hll b login in all pages
                 <a href="index.php"><img src="img\homePageIcon.png" alt="Blogs logs" width="50"></a>
                 <ul> <!-- basic menu-->
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="discover.php">About Us</a></li>
-                    <li><a href="blog.php">Find Blogs</a></li>
                     <!-- two important things -->
                     <?php
                         if(isset($_SESSION["useruid"])){
