@@ -143,7 +143,7 @@ function loginUser($conn, $username, $pwd) {
         $_SESSION["userid"] = $uidExists["usersId"];
         $_SESSION["useruid"] = $uidExists["usersUid"];
         // send the user to front page
-        header("location: ../index.php");
+        header("location: ../profile.php");
         exit();
     }
 }
