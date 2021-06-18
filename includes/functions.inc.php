@@ -15,7 +15,8 @@ function emptyInputSignup($name, $email, $username, $pwd, $pwdRepeat) {
 
 function invalidUid($username) {
     $result;//created outside if to avoid rewriting inside each if
-    if(!preg_match("/^[a-zAz0-9]*$/", $username)){///^[a-zAz0-9]*$/ is the searching algorithm
+    if(!preg_match("/^[a-zA-Z0-9]*$/", $username)){
+        /*  /^[a-zA-Z0-9]*$/ is the searching algorithm */
         $result = true;
     }
     else{
