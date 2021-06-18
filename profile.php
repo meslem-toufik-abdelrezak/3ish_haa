@@ -2,19 +2,16 @@
 
 include_once 'header.php';
 
-echo "hello user";
+if($_SESSION["role"] == "admin"){
+    echo "hello admin";
+}
 
-    /*I NEED TO MAKE THE PSEUDOCODE BELLOW IN PHP USING POST METHOD*/
-// if(privilege == admin){
-//     echo "hello admin";
-// }
+else{
+    if ($_SESSION["role"] == "teacher"){
+        echo "hello teacher";
+    }
+    else {
+        echo "hello a TALAB AT3ISS HHH";
+    }
 
-// else{
-//     if (privilege == teacher){
-//         echo "hello teacher";
-//     }
-//     else {
-//         echo "hello a TALAB AT3ISS HHH";
-//     }
-
-// }
+}

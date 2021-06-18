@@ -137,13 +137,14 @@ function loginUser($conn, $username, $pwd) {
         exit();
     }
     elseif ($checkPwd === true) {
-        //toufik: I think here I should do privilege logic (admin, teacher, student)
         //Dani: login the user into the website , we start talking about sessions
         session_start();
         // session global variables 
         $_SESSION["userid"] = $uidExists["usersId"];
         $_SESSION["useruid"] = $uidExists["usersUid"];
-        // send the user to front page
+        $_SESSION["role"] = $uidExists["privilege"];
+
+        // send the user to profile page
         header("location: ../profile.php");
         exit();
     }
