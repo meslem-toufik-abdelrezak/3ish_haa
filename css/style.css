@@ -1,6 +1,6 @@
 /* 12:25 */
 body{
-    background-color: #f2f2f2;
+    background-color: white;
 }
 
 .wrapper {
@@ -24,7 +24,7 @@ h2 {
     font-weight: 600;
     font-size: 32px;
     padding: 20px 0; 
-    /* text-align: center; */
+    text-align: center;
 }
 
 ul {
@@ -47,7 +47,7 @@ ul {
    {
     width: 50%;
     padding: 12px 20px;
-    margin: 8px 0px ;
+    margin: 8px auto ;
     display: block;
     border: 1px solid #ccc;
     border-radius: 12px;
@@ -59,8 +59,9 @@ ul {
     width: 50%;
     background-color: #4CAF50;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 12px 20px;
+    margin: 18px auto;
+    display: block;
     border: none;
     border-radius: 12px;
     cursor: pointer;
@@ -75,5 +76,4 @@ ul {
     background-color: #f2f2f2;
     padding: 20px;
     margin: 30px;
-    position: center center;
   }
