@@ -17,7 +17,7 @@ session_start(); //when the user is loged in, will b login in all pages
         <nav>
             <div class="wrapper"> <!-- to wrapp evthg inside the header-->
             <!-- change the logo -->
-                <a href="index.php"><img src="img\homePageIcon.png" alt="Blogs logs" width="50"></a>
+                <!-- <a href="index.php"><img src="img\homePageIcon.png" alt="Blogs logs" width="50"></a> -->
                 <ul> <!-- basic menu-->
                     <li><a href="index.php">Home</a></li>
                     <!-- two important things -->
