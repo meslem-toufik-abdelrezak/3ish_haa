@@ -15,10 +15,10 @@
             <?php
             if(isset($_GET["error"])){ //check if some url exists inside url
                 if($_GET["error"] == "emptyinput"){
-                    echo "<p>Fill in all fields!</p>";
+                    echo "<p class='error-p' >Fill in all fields!</p>";
                 }
                 else if ($_GET["error"]== "wronglogin"){
-                    echo "<p>Incorrect login information!</p>";
+                    echo "<p class='error-p' >Incorrect login information!</p>";
                 }
             }
             ?>         

@@ -21,25 +21,25 @@
 <?php
     if(isset($_GET["error"])){ //check if some url exists inside url
         if($_GET["error"] == "emptyinput"){
-            echo "<p>Fill in all fields!</p>";
+            echo "<p class = 'error-p' >Fill in all fields!</p>";
         }
         else if ($_GET["error"]== "invaliduid"){
-            echo "<p>Choose a proper username!</p>";
+            echo "<p class = 'error-p'>Choose a proper username!</p>";
         }
         else if ($_GET["error"]== "invalidEmail"){
-            echo "<p>Choose a proper email!</p>";
+            echo "<p class = 'error-p'>Choose a proper email!</p>";
         }
         else if ($_GET["error"]== "notmatchingpassword"){
-            echo "<p>Password does not match!</p>";
+            echo "<p class = 'error-p'>Password does not match!</p>";
         }
         else if ($_GET["error"]== "stmtfailed"){
-            echo "<p>Something went wrong, try again!</p>";
+            echo "<p class = 'error-p'>Something went wrong, try again!</p>";
         }
         else if ($_GET["error"]== "usernametaken"){
-            echo "<p>Username already taken!</p>";
+            echo "<p class = 'error-p'>Username already taken!</p>";
         }
         else if ($_GET["error"]== "none"){
-            echo "<p>You have signed up!</p>";
+            echo "<p class = 'error-p'>You have signed up!</p>";
         }
      }
 ?>          

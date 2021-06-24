@@ -5,7 +5,7 @@
 
         <section class="index-intro">
             <h1>This is an introduction</h1>
-            <p>Here is an important paragraph that explains the purpose of my app</p>
+            <p id="intro-p" >Here is an important paragraph that explains the purpose of my app</p>
         </section>
         
         <!-- second section is basic categories vid: 10:45 -->
